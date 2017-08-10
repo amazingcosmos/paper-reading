@@ -1,4 +1,26 @@
-# Deep Neural Networks for Learning Graph Representation
+# [Deep Neural Networks for Learning Graph Representation](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12423)
+
+## Brief glance
+
+- Publication: AAAI 2016
+
+- Authors: Shaoshen Cao(Xidian), Wei Lu(sutd), QiongKai Xu(ANU).
+
+- Topic: Graph representation, neural network.
+
+- About: Learning low-dimentional vector representation for each vertex by capturing the graph structural information. Model use random surfing to capture graph structural directly.
+
+![fig1](/figs/DNN-for-graph-prepresentation-fig1.png)
+
+## Introduction
+
+**Motivation:**
+
+It's crucial to develop automated algorithms to extract useful information from graph.
+
+**Drawbacks:**
+
+
 
 TODO
 
@@ -14,7 +36,7 @@ TODO
 
 - About: Using the shallow machine learning mathod(Logistic Regression, Naive Bayes and Noisy OR) to extract a knowledge graph about the diseases and symptoms from electronic health(medical) records. Evaluate their model by compare with the manually curated Google Health Knowledge Graph using automatical algorithm and professional physicians on both recall and accuracy.
 
-## Intro
+## Introduction
 
 **Motivation:**
 
