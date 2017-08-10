@@ -12,7 +12,7 @@ TODO
 
 - Topic: Knowledge graph, EHR, Noisy OR
 
-- About: Using the shallow machine learning mathod(Logistic Regression, Naive Bayes and Noisy OR) to extract a knowledge graph about the diseases and symptoms from electronic health(medical) records. Evaluate their model by compare with the manually curated Google Health Knowledge Graph by automatical algorithm and professional physicians as both recall and accuracy.
+- About: Using the shallow machine learning mathod(Logistic Regression, Naive Bayes and Noisy OR) to extract a knowledge graph about the diseases and symptoms from electronic health(medical) records. Evaluate their model by compare with the manually curated Google Health Knowledge Graph using automatical algorithm and professional physicians on both recall and accuracy.
 
 ## Intro
 
@@ -22,19 +22,19 @@ Automated tools to support medical diagnostic reasoning is widely used by patien
 
 Drawbacks:
 
-Current methodology is the demanding of tremendous amount of expert time to manually build the system and its brittle and difficult to adapt to new disease or clinical setting. While automatic extract medical knowledge graph could speed up the devolopment of diagnosing tools.
+Current methodology demanded tremendous amount of expert time to manually build the system although it's brittle and difficult to adapt to new disease or clinical setting. At the mean time, automatic extract medical knowledge graph could speed up the devolopment of such diagnosing tools.
 
 Previous work mostly using the NLP to find relationship between diseases and symptoms, but it could not deal with the electronic medical records(EHR).
 
 Difficult:
 
-- Text by medical stuff is unformal.
+- Text by medical stuff is informal.
 
-- EHR is rich of reality commordities which hard to handle.
+- EHR is rich of reality commordities which is hard to handle.
 
-- Link between disease and symptom in EHR is statical & confuse.
+- Links between disease and symptom in EHR are statical & confuse.
 
-- EHR is filtered which could cause information missing.
+- EHR is filtered which could lead to unwilling information missing.
 
 ## Data Source
 
@@ -44,9 +44,9 @@ GHKG: Google Health Knowledge Graph. The nodes are diseases and symptoms, the ed
 
 ## Data Preparation
 
-Concept extraction from EHR: Extract positive mentions of disease and symptom from ICD-9 codes and free-text(chief complaint, triage assesment, nursing notes, medical doctor comments).
+Concept extraction from EHR: Extract positive mentions of disease and symptom contains ICD-9 codes and free-text(chief complaint, triage assesment, nursing notes, medical doctor comments).
 
-GHKG: Subset of August 2015 where disease had at least 100 positive mentions and for symptom had at least 10 positive mentions. 156 diseases and 491 symptoms.
+GHKG: Subset of August 2015 where disease had at least 100 positive mentions and for symptom had at least 10 positive mentions (156 diseases and 491 symptoms).
 
 ## Model
 
