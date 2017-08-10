@@ -16,17 +16,17 @@ TODO
 
 ## Intro
 
-Motivation:
+**Motivation:**
 
 Automated tools to support medical diagnostic reasoning is widely used by patients and clinicians. Diagnostic reasoning system showed great success in several application area of medical.
 
-Drawbacks:
+**Drawbacks:**
 
 Current methodology demanded tremendous amount of expert time to manually build the system although it's brittle and difficult to adapt to new disease or clinical setting. At the mean time, automatic extract medical knowledge graph could speed up the devolopment of such diagnosing tools.
 
 Previous work mostly using the NLP to find relationship between diseases and symptoms, but it could not deal with the electronic medical records(EHR).
 
-Difficult:
+**Difficult:**
 
 - Text by medical stuff is informal.
 
@@ -89,40 +89,5 @@ disease A causes symptom B: always, somtimes, rarely, never.
 ## Limitation
 
 Could not infer causal relation from observation.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
